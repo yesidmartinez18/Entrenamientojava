@@ -11,6 +11,7 @@ public class Perro {
 	public static void main(String[] args) {
 		Perro perro = new Perro();
 		System.out.println(perro.altura);
+		perro.ladrar();
 			
 
 		

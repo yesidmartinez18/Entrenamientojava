@@ -24,7 +24,7 @@ public class SwitchCase {
 				System.out.println("Ingreso al modulo de Predial	");
 				break;
 			case "Ejemplo":
-				System.out.println("Ingreso al modulo de Ejemplo");
+				System.out.println("Ingreso al modulo de Ejemplo");	
 				break;
 			default:
 				System.out.println("Ni monda");

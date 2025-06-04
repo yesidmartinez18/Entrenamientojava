@@ -7,10 +7,10 @@ public class PalabraClaveThis {
 	String nombre;
 	String grado;
 	
-	public PalabraClaveThis(int i, String n, String s) {
-		numeromatricula = i;
-		nombre = n;
-		grado = s;		
+	public PalabraClaveThis(int numeromatricula, String nombre, String grado) {
+		this.numeromatricula = numeromatricula;
+		this.nombre = nombre;
+		this.grado = grado;		
 	}
 	
 	public void display() {

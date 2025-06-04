@@ -9,6 +9,6 @@ public class LoopsDoWhile {
 				i++;	
 		}while(i<5);	
 
-	}
+	}	
 
 }

@@ -18,7 +18,7 @@ public class CondicionalesIf {
 			System.out.println("A es menor que 1000");
 		}else {
 			System.out.println("A es mayor que 1000");
-		}*/
+		}*/			
 	//Tercer tipo
 		if(a == 100) {
 			System.out.println("A = 100");
