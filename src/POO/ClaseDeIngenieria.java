@@ -18,11 +18,34 @@ public class ClaseDeIngenieria implements Estudiante{
 		System.out.println("Somos de Quinto semestre");
 		
 	}
+	
+	public void obtenerUniversidad() {
+		System.out.println("La Universidad es:"+ Estudiante.universidad);
+	}
 
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		ClaseDeIngenieria ing = new ClaseDeIngenieria();
+		ClaseDeMedicina med = new ClaseDeMedicina();
+		
+		ing.mostrarNombre();
+		ing.obtenerGrado();
+		ing.obtenerNumeroDeEstudiantes();
+		ing.obtenerUniversidad();
+		System.out.println("**************************************/n");
+		med.mostrarNombre();
+		med.obtenerGrado();
+		med.obtenerNumeroDeEstudiantes();
+		med.obtenerUniversidad();
 
+	}
+
+
+	
+	public void obtenerNombreInterface() {
+		
+		
 	}
 
 	
