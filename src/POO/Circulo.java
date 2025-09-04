@@ -8,6 +8,7 @@ public class Circulo extends Formas {
 		Formas r = new Rectangulo();
 		Formas t = new Triangulo();
 		
+		//Formas x = new Formas(); no se puede instancear 
 		c.MostrarForma();
 		t.MostrarForma();
 		r.MostrarForma();
@@ -18,6 +19,6 @@ public class Circulo extends Formas {
 	public void MostrarForma() {
 		System.out.println("La forma es una circunferencia");
 		
-	}	
+	}		
 
 }
