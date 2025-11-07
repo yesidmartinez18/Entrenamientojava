@@ -32,6 +32,7 @@ public class Excepciones {
 				System.out.println("Error : No ingresaste un numero valido");
 			}
 		}
+		scanner.close();
 		return numero;
 		
 		
