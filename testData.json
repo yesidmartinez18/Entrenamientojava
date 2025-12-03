@@ -1,0 +1,61 @@
+{
+  "testdata": [
+    {
+      "testName": "LoginTest",
+      "data": [
+        {
+          "runmode": "y",
+          "browser": "chrome",
+          "username": "abc@gmail.com",
+          "password": "pass1234"
+        },
+        {
+          "runmode": "n",
+          "browser": "mozilla",
+          "username": "abc@gmail.com",
+          "password": "pass1234"
+        },
+        {
+          "runmode": "y",
+          "browser": "edge",
+          "username": "abc@gmail.com",
+          "password": "pass1234"
+        }
+      ]
+    },
+    {
+      "testName": "PurchaseProductTest",
+      "data": [
+        {
+          "runmode": "y",
+          "browser": "chrome",
+          "username": "user1@test.com",
+          "password": "pass1234"
+        },
+        {
+          "runmode": "y",
+          "browser": "edge",
+          "username": "user1@test.com",
+          "password": "pass1234"
+        }
+      ]
+    },
+    {
+      "testName": "RegisterNewUserTest",
+      "data": [
+        {
+          "runmode": "y",
+          "browser": "chrome",
+          "username": "newuser@test.com",
+          "password": "pass1234"
+        },
+        {
+          "runmode": "n",
+          "browser": "mozilla",
+          "username": "newuser@test.com",
+          "password": "pass1234"
+        }
+      ]
+    }
+  ]
+}
